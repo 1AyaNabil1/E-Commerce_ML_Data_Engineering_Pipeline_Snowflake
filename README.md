@@ -24,7 +24,7 @@ Build a production-ready data engineering pipeline using **Snowflake** to proces
 
 ```bash
 python3.10 -m venv snowflake_ml_env
-source snowflake_ml_env\Scripts\activate
+snowflake_ml_env\Scripts\activate
 
 pip install snowflake-connector-python
 pip install snowflake-snowpark-python
