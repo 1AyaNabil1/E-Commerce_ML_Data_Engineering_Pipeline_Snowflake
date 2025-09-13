@@ -1,10 +1,10 @@
-# 🚀 End-to-End ML Data Engineering Project with Snowflake
+# End-to-End ML Data Engineering Project with Snowflake
 
 ## E-Commerce Customer Analytics & Churn Prediction Pipeline
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 Build a production-ready data engineering pipeline using **Snowflake** to process e-commerce data, create ML features, and deploy predictive models. This project demonstrates advanced Snowflake capabilities including **Snowpark**, **ML UDFs**, and **real-time analytics**.
 
@@ -13,7 +13,7 @@ Build a production-ready data engineering pipeline using **Snowflake** to proces
 ---
 
 
-## 🛠️ Required Downloads & Setup
+## 🛠Required Downloads & Setup
 
 ### 1. Snowflake Trial Account
 
@@ -50,7 +50,7 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 🌟 Phase 1: Data Generation & Ingestion
+## Phase 1: Data Generation & Ingestion
 
 1. Generate synthetic users, products, and transactions using `data_generator.py`
 2. Save to CSV and upload to Snowflake stage
@@ -58,7 +58,7 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 🔄 Phase 2: Data Loading & Transformation
+## Phase 2: Data Loading & Transformation
 
 1. Use `data_loader.py` to PUT CSVs into Snowflake and populate raw tables
 2. Use `data_transformation.py` (Snowpark) to create `FEATURES.USER_FEATURES`
@@ -66,14 +66,14 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 🤖 Phase 3: ML Model Development
+## Phase 3: ML Model Development
 
 1. Use `model_training.py` to train churn model on features using Random Forest or XGBoost
 2. Evaluate with classification report and save model using `joblib`
 
 ---
 
-## 💾 Phase 4: Model Deployment
+## Phase 4: Model Deployment
 
 1. Deploy model as **Snowflake UDF** using `deploy_model_udf.py`
 2. Register both `predict_churn` and `predict_churn_probability` functions
@@ -81,7 +81,7 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 📊 Phase 5: Analytics Dashboard
+## Phase 5: Analytics Dashboard
 
 1. Use `dashboard.py` to build an interactive Streamlit dashboard
 2. Visualize:
@@ -93,14 +93,14 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 📆 Phase 6: Automation
+## Phase 6: Automation
 
 * Schedule daily runs with `automated_pipeline.py`
 * Integrate feature generation, model retraining, and UDF updates
 
 ---
 
-## 📅 Testing & Validation
+## Testing & Validation
 
 * Check for duplicate records
 * Validate NULL values and range distributions
@@ -108,7 +108,7 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 💼 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 * Snowflake (Snowpark, UDFs, Data Warehousing)
 * Machine Learning (Feature Engineering, Deployment)
@@ -119,11 +119,9 @@ ML Models (UDFs) ➔ Streamlit Dashboard
 
 ---
 
-## 📈 Expected Outcomes
+## Expected Outcomes
 
 * 100K+ transactions processed daily
 * 89% model accuracy for churn prediction
 * Real-time scoring with Snowflake UDFs
 * Fully automated and tested pipeline
-
-> This project demonstrates **enterprise-level data engineering and ML deployment** on Snowflake and is aligned with real-world business use cases
