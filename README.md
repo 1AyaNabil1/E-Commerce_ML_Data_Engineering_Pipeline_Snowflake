@@ -40,7 +40,7 @@ pip install streamlit plotly faker
 
 ---
 
-## 📊 Project Architecture
+## Project Architecture
 
 ```
 Raw Data (CSV) ➔ Snowflake Stage ➔ Raw Tables ➔
