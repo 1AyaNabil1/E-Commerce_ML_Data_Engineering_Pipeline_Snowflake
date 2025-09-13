@@ -13,7 +13,7 @@ Build a production-ready data engineering pipeline using **Snowflake** to proces
 ---
 
 
-## 🛠Required Downloads & Setup
+## Required Downloads & Setup
 
 ### 1. Snowflake Trial Account
 
